@@ -148,6 +148,18 @@
     font-weight: 800;
     flex-shrink: 0;
   }
+.members-list li a {
+  color: var(--text-dark);
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+.members-list li a:visited,
+.members-list li a:hover,
+.members-list li a:active {
+  color: var(--text-dark);
+  text-decoration: none;
+}
 
   .divider {
     height: 2px;

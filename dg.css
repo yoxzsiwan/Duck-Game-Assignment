@@ -1,4 +1,4 @@
- :root {
+    :root {
     --lime: #a8e063;
     --lime-dark: #7bc733;
     --lime-light: #d4f5a0;
@@ -152,6 +152,7 @@
   color: var(--text-dark);
   text-decoration: none;
   flex-grow: 1;
+text-align: left;
 }
 
 .members-list li a:visited,
